@@ -1,0 +1,6 @@
+[webservers]
+ansnode1 ansible_ssh_host=9.30.195.37 ansible_python_interpreter=/usr/bin/python
+
+[webservers:vars]
+ansible_port=22
+http_port=8080
